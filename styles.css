@@ -1,0 +1,62 @@
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+/* =================================
+---- Layout Containers ---- 
+====================================*/
+header {
+    height: 100px;
+    background-color: blue;
+}   
+
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media only screen and (min-width: 769px) {
+    .wes,
+    .michael {
+        display: inline-block;
+    }
+
+    .container {
+        display:flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .name {
+        float: left;
+        border: solid 1px red;
+        }
+        
+        .main-nav {
+        float: right;
+        margin-top: 4.25%;
+        }
+        
+        .main-nav li {
+        float: left;
+        list-style-type: none;
+        margin: 0 1px 0 1px;
+        }
+        
+        a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: blue;
+        padding: 1em;
+        background-color: white;
+        }
+}
+
+  
