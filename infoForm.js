@@ -14,3 +14,4 @@ function pushHiddenOther() {
         otherInput.value = '';
    }
 };
+
