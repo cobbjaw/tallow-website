@@ -19,6 +19,7 @@ header {
 .name {
     margin: auto;
     color: whitesmoke;
+    min-width: 300px;
     }
 
 .main-nav {
@@ -35,7 +36,7 @@ header {
 .main-nav a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: white;
     }
    
 /* =================================
@@ -49,7 +50,7 @@ body {
     min-height: 100vh;
     background-color: rgb(136, 154, 172);
 }
-
+ 
 .container {
     margin-top: 2em;
 }
@@ -65,6 +66,7 @@ body {
 .about_col {
     position: relative;
     z-index: 1;
+    padding-bottom: .5em;
 }
 
 .about_col .bg{
@@ -84,7 +86,8 @@ body {
     font-weight: bold;
     padding-left: .5em;
     padding-top: .5em;
- }
+}
+
  .about_col p {
     font-weight: bold;
     padding: 1em;
@@ -94,11 +97,30 @@ img {
     border-radius: 10px;
 }
 
+.btn-primary {
+    margin-top: 1em;
+}
+
 /* ================================= 
-  For javascript with modal
+  For footer
+==================================== */
+.main-footer {
+    margin-top: 1em;
+}
+
+.top {
+    float: right;
+}
+
+/* ================================= 
+  For modal
 ==================================== */
 .hidden {
     display: none;
+}
+
+.btn-primary {
+    margin-top: 1em;
 }
 
 /* ================================= 
@@ -130,10 +152,7 @@ img {
         display: flex;       
         justify-content: space-around;
     }
-    .wes {
-        
-    }
-    
+   
     .wes,
     .michael {
         flex-direction: row; 
@@ -161,6 +180,7 @@ img {
    .main-nav a {
         padding: 1em;
         font-weight: bold;
+        color: black;
            
     }
 

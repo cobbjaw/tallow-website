@@ -19,28 +19,27 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
     <header class="main-header">
-        <h1 class="name">Tallow: The Making</h1>
+        <h1 id="top" class="name">Tallow: The Making</h1>
         <ul class="main-nav">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Author</a></li>
-            <li><a href="#">Illustrator</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#wes">Creators</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
    
     <main>
         <div class="container">
-            <div class="wes">
-                <img src="https://placeimg.com/360/360/any" alt="quill and ink pot">
+            <div id="wes" class="wes">
+                <img id="quill" src="https://placeimg.com/360/360/tech" alt="quill and ink pot">
                 <h1>Wes Cobb</h1>
             </div>
             <div class="michael">                
-                <img src="https://placeimg.com/360/360/any" alt="paint palette">
+                <img id= "palette" src="https://placeimg.com/360/360/nature" alt="paint palette">
                 <h1>Michael Quattlebaum</h1>
             </div>
         </div>
-        <div class="about_col">
+        <div class="about_col" id="about">
             <div class="bg"></div>
             <h1>Our Story</h1>
             <div class="content_col">
@@ -52,7 +51,7 @@
         
     </main>
         <!-- Modal Button trigger  -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#receiveNewsletter">Sign up for Newsletter</button>
+        <button type="button" id="contact" class="btn btn-primary" data-toggle="modal" data-target="#receiveNewsletter">Sign up for Newsletter</button>
         <!--- modal -->
         <div class="modal fade" id="receiveNewsletter" tabindex="-1" role="dialog" aria-labelledby="newsletterForm" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -170,7 +169,9 @@
 
     <footer class="main-footer">
         <span>&copy;2019 J&M Publishing, Inc.</span>
+        <!-- <button type="button" id="home_button" class="top"><a href="#top">Home</a></button> -->
     </footer>
+
 </body>
 
 </html>
