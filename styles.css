@@ -97,7 +97,7 @@ img {
     border-radius: 10px;
 }
 
-.btn-primary {
+#contact {
     margin-top: 1em;
 }
 
@@ -113,10 +113,6 @@ img {
 ==================================== */
 .hidden {
     display: none;
-}
-
-.btn-primary {
-    margin-top: 1em;
 }
 
 /* ================================= 
@@ -194,10 +190,6 @@ img {
 }
 
 @media only screen and (min-width: 1025px) {
-
-    header {
-        background-color: yellow;
-    }
 
     .content_col {
         -webkit-column-count: 3;

@@ -1,4 +1,5 @@
 var boxHidden = true;
+const buttonElement = document.getElementById('saveChanges');
 
 // when other radio button is clicked, removes the hidden class from the html class 'otherInput' revealing an input box.
 function removeHiddenOther() {
@@ -16,3 +17,10 @@ function pushHiddenOther() {
         otherInput.value = '';
    }
 };
+
+//Use "alert" to thank the user for signing up for the newsletter.
+buttonElement.addEventListener('click', function (event) {
+    alert('Thank you for becoming a part of the Tallow community!');
+  });
+
+
